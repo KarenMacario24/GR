@@ -1,33 +1,33 @@
 
 
 form {
-  max-width: 300px;
-  margin: 10px auto;
-  padding: 10px 20px;
-  background: #f4f7f8;
+  max-width: 900px;
+  padding: 90px 30px;
   border-radius: 8px;
 }
 
 h1 {
-  margin: 0 0 30px 0;
+  margin: 0 0 90px 0;
   text-align: center;
 }
 
-input[type="text"],
+input[type="name"],
 input[type="password"],
 input[type="email"],
 
+/*para los cuadritos en donde se ingresa la informacion*/
 select {
-  background: rgba(255,255,255,0.1);
-  border: none;
-  font-size: 16px;
+  margin: 0 auto;
+  /*background: rgba(255,255,255,0.1);*/
+  border: 150px;
+  border-color: black;
+  font-size: 16px;  
   height: auto;
   margin: 0;
   outline: 0;
   padding: 15px;
   width: 100%;
-  background-color: #e8eeef;
-  color: #8a97a0;
+  color: black;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
 }
@@ -38,29 +38,30 @@ input[type="checkbox"] {
 }
 
 select {
-  padding: 6px;
-  height: 32px;
-  border-radius: 2px;
+  padding: 60px;
+  height: 320px;
+  border-radius: 20px;
 }
 
 button {
-  padding: 19px 39px 18px 39px;
+  padding: 1px 3px 5px 3px;
   color: #FFF;
-  background-color: #4bc970;
-  font-size: 18px;
+  background-color: #448ef6;
+  font-size: 35px;
   text-align: center;
   font-style: normal;
   border-radius: 5px;
   width: 100%;
-  border: 1px solid #3ac162;
-  border-width: 1px 1px 3px;
+  border: 10px solid #448ef6;
+  border-width: 10px 10px 30px;
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
   margin-bottom: 10px;
 }
 
 fieldset {
   margin-bottom: 30px;
-  border: none;
+  border: 15px;
+  background-color: #defcfc;
 }
 
 legend {
@@ -71,6 +72,7 @@ legend {
 label {
   display: block;
   margin-bottom: 8px;
+  font-size: 20px;
 }
 
 label.light {
@@ -78,19 +80,6 @@ label.light {
   display: inline;
 }
 
-.number {
-  background-color: #5fcf80;
-  color: #fff;
-  height: 30px;
-  width: 30px;
-  display: inline-block;
-  font-size: 0.8em;
-  margin-right: 4px;
-  line-height: 30px;
-  text-align: center;
-  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
-  border-radius: 100%;
-}
 
 @media screen and (min-width: 480px) {
 
@@ -98,4 +87,16 @@ label.light {
     max-width: 480px;
   }
 
+}
+
+/*.tit{
+  color: black;
+  background-color: #448ef6;
+  font-family: 'Oswald', sans-serif; 
+}*/
+.imgaa{
+  width: 220px;
+  height: 190px;
+  margin:10px auto;
+  display:block;
 }

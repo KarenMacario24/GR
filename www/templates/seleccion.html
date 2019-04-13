@@ -1,0 +1,87 @@
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet"  href="../css/seleccion.css">
+
+
+<div class="container nose">
+    <div class="row">
+        <form>
+             <div class="form-group col-md-4">
+    <label >reflect the status of money in the company</label>
+      <select  class="form-control s">
+          <option value="all">--Select--</option>
+          <option value="area">bank</option>
+           <option value="area">product</option>
+           <option value="area">Petty Cash</option>
+      </select>
+  </div>
+  <div class="form-group col-md-4 route-dropdown">
+    <label>Money deposited in any bank of the system</label>
+     <select  class="form-control s" >
+          <option>--Select--</option>
+          <option>Goodwill </option>
+           <option>Notes Receivable</option>
+           <option>bank</option>
+      </select>
+  </div>
+  <div class="form-group col-md-4 route-dropdown">
+    <label>They are the people or commercial house to whom we owe for having bought them merchandise on credit, without giving them any documentary guarantee</label>
+     <select  class="form-control s">
+          <option>--Select--</option>
+          <option>Buildings</option>
+          <option>Land</option>
+          <option>Providers</option>
+      </select>
+  </div>
+
+   <div class="form-group col-md-4 route-dropdown">
+    <label>They are the people to whom we owe for a different concept of the purchase of merchandise</label>
+     <select  class="form-control s" >
+          <option>--Select--</option>
+          <option>creditors</option>
+          <option>Interest Receivable</option>
+          <option>Gain</option>
+      </select>
+  </div>
+
+   <div class="form-group col-md-4 route-dropdown">
+    <label>Total of the contribution to the company or activity</label>
+     <select  class="form-control s" >
+          <option>--Select--</option>
+          <option>capital</option>
+          <option>gain</option>
+          <option>money</option>
+      </select>
+  </div>
+
+   <div class="form-group col-md-4 route-dropdown">
+    <label>This account adds the sales we make to our customers.</label>
+     <select  class="form-control s" >
+          <option>--Select--</option>
+          <option>Depreciation Expense</option>
+          <option>purchases</option>
+          <option>sale</option>
+      </select>
+  </div>
+  
+        </form>
+    </div>
+</div>
+<script>
+    $(".route-dropdown").hide();
+
+$("#area-dropdown").change(function(){
+
+  if($(this).val() == "area"){
+      $(".route-dropdown").show();    
+  }
+  if($(this).val() == "all"){
+      $(".route-dropdown").hide();    
+  }
+  if($(this).val() == "high_index"){
+      $("#filterbox").show();    
+  }
+
+});
+</script>

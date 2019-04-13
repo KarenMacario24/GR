@@ -1,0 +1,23 @@
+img{
+	width: 180px;
+	height: 180px;
+	display: flex;
+	display: block;
+	margin: 0px auto;
+	border: 2px black solid;
+
+
+}
+
+
+p{
+	text-align: center;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 30px;
+	line-height: 1;
+	padding: 50px 100px;
+}
+
+.n{
+	padding: 10px 5px;
+}

@@ -1,0 +1,13 @@
+<ion-view view-title="inicio">
+	<ion-content>
+		<link rel="stylesheet" href="../css/inicio.css">
+		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+		<p>WELCOME TO ADVANCE NUMBER CARE</p>
+		<!-- Cuadro para categorias -->
+		<div class="row esp" style="-webkit-flex-wrap:wrap;flex-wrap: wrap;" ui-sref="grafica">
+			<div class="n" class="col col-50 nm" ng-repeat="x in conta">
+				<img class="lu" src=" {{x}} ">
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

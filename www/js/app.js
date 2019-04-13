@@ -55,12 +55,40 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     .state('login', {
   url: '/login',
   templateUrl: 'templates/login.html',
-  controller: 'login'
+  controller: 'loginCtrl'
 
   })
 
+    .state('inicio', {
+  url: '/inicio',
+  templateUrl: 'templates/inicio.html',
+  controller: 'inicio'
+
+  })
+
+
+
+  
+
+      .state('seleccion', {
+  url: '/seleccion',
+  templateUrl: 'templates/seleccion.html'
+  /*controller: seleccion'*/
+
+  })
+
+
+
+     .state('grafica', {
+  url: '/grafica',
+  templateUrl: 'templates/grafica.html'
+  /*controller:grafica'*/
+
+  })
+
+
   // if none of the above states are matched, use this as the fallback
   //llamar estado para primera vista
-  $urlRouterProvider.otherwise('/login');
+  $urlRouterProvider.otherwise('/inicio');
 
 });

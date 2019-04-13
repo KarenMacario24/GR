@@ -1,0 +1,99 @@
+p{
+	text-align: center;
+	
+}
+
+hr.v{
+	color: black;
+	width: 1px;
+	height: 100px;
+	margin-top: -8px;
+}
+
+.ta{
+	font-size: 600px;	
+}
+
+
+hr.c{
+	width:60%;
+	height: 1px;
+	margin-top: -8px;
+}
+
+.b{
+	border-top:6px solid;
+	width: 320px;
+	margin: 0 auto;
+	}
+
+.v{
+	border-left: 6px solid black;
+	height: 190px;
+	margin-top: -8px;
+}
+
+.j{
+	margin-top: 0px;
+	padding: 0px;
+}
+
+
+
+.s{
+	border-top:6px solid;
+	width: 320px;
+	margin: 0 auto;
+}
+/*modifica la linea vertical izquierda de la diferencia*/
+.n{
+	border-left: 6px solid black;
+	height: 30px;
+	margin-top: -6px;
+}
+
+.cua{
+	background-color: #f0d9da;
+	margin-top: 10px;
+}
+
+.p{
+
+	margin-top: -8px;
+}
+
+.g{
+	background-color: #deecff;
+}
+
+
+.m{
+	border-top:6px solid;
+	width: 320px;
+	margin: 0 auto;
+}
+
+
+.k{
+	border-left: 6px solid black;
+	height: 30px;
+	margin-top: -6px;
+}
+
+
+
+
+.h{
+	border-top:6px solid red;
+	margin: 0 auto;
+	margin-top: 2px;
+}
+
+
+.al{
+	border-top:6px solid red;
+	width: 330px;
+	margin: 0 auto;
+	margin-top: 2px;
+
+}

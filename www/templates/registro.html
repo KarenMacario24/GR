@@ -2,13 +2,15 @@
   <ion-content>
     <link rel="stylesheet" href="../css/registro.css">
     <form action="index.html" method="post">
-  
+    <!--<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">-->
 
           
           <fieldset>
-            <legend><span class="number">1</span>Your basic info</legend>
+            <!--<div class="tit">BIENVENIDO A FUNACCOUNT</div>-->
+            <img class="imgaa" src="http://www.padelparkleon.com/images.ashx?cmd=get&id=153">
+
             <label for="name">Name:</label>
-            <input type="text" id="name" name="user_name" ng-model="user.name">
+            <input type="name" id="name" name="user_name" ng-model="user.name">
             
             <label for="mail">Email:</label>
             <input type="email" id="mail" name="user_email" ng-model="user.email">
@@ -17,10 +19,8 @@
             <input type="password" id="password" name="user_password" ng-model="user.password">
             
           </fieldset>
-          
 
-          </fieldset>
-          <button type="button" ng-click="validar(user)">Crear Cuenta</button>
+          <button class="button button-outline button-positive ion-log-in" type="button" ng-click="validar(user)">Crear Cuenta</button>
         </form>
 
   </ion-content>

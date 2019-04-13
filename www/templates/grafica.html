@@ -1,0 +1,84 @@
+<ion-view view-title="grafica">
+  <ion-content>
+  	<link rel="stylesheet" href="../css/grafica.css">
+
+  	<br><br><br>
+
+  	<p class="j">Nominar la cuenta “Mercaderías” (CUENTA DE ACTIVO) </p>
+	<p class="j">Abrir Q10,500</p>
+	<p class="j">Cargo Q5,750</p>
+	<p class="j">Cargo Q4,200</p>
+	<p class="j">Abono Q 6, 700</p>
+	<p class="j">Cargo Q2,000</p>
+	<p class="j">Abono Q4,000</p>
+	<p class="j">Saldar, balancear, cerrar y reabrir</p>
+<label>Nombre de la Cuenta</label>
+  	<input type="text" name="cantidad1" ng-model="cuenta">
+  	<p class="g">{{cuenta}}</p>
+  	<div class="container-fluid">
+	  	<div class="row b">
+	  		<div class="col p">	
+				  	<input class="cua" type="number" name="cantidad2" ng-model="d1">
+				  	
+				  	<input class="cua" type="number" name="cantidad3" ng-model="d2">
+				  	
+				  	<input class="cua" type="number" name="cantidad4" ng-model="d3">
+
+				  	<input class="cua" type="number" name="cantidad5" ng-model="d4">
+
+			
+	  		</div>
+	  		<div class="col v">
+			  	<input class="cua" type="number" name="cantidad2" ng-model="h1">
+			  	
+			  	<input class="cua" type="number" name="cantidad3" ng-model="h2">
+			  	
+			  	<input class="cua" type="number" name="cantidad3" ng-model="h3">
+
+			  	<input class="cua" type="number" name="cantidad3" ng-model="h4">
+	  		</div>
+	  	</div>
+	  	<div class="row s">
+	  		<div class="col p">
+	  			{{d1+d2+d3+d4}}
+	  			
+	  		</div>
+	  		<div class="col n">
+	  			{{h1+h2+h3+h4}}
+	  		</div>
+	  	</div>
+
+	  	<div class="row m">
+	  		<div class="col ">
+	  			
+	  		</div>
+	  		<div class="col k">
+	  			{{(d1+d2+d3+d4)-(h1+h2+h3+h4)}}
+	  		</div>
+	  	</div>
+
+	  	<div class="row m">
+	  		<div class="col ">
+	  			{{d1+d2+d3+d4}}
+	  		</div>
+	  		<div class="col k">
+	  			{{(d1+d2+d3+d4)-(h1+h2+h3+h4)+(h1+h2+h3+h4)}}
+	  		</div>
+	  	</div>
+
+	  	<div class="row al">
+	  		<div class="col h">
+	  			
+	  		</div>
+	  		
+	  		<div class="col h">
+	  			
+	  		</div>
+	  	</div>
+  	</div>
+
+
+
+
+  </ion-content>
+</ion-view>
